@@ -1,0 +1,6 @@
+GitHub
+
+- Erstelle ein neues Repo.
+- Lege ein Branch-Konzept an (z. B. `main`, `feature/xyz`).
+- Simuliere einen Pull Request mit einem Feature.
+- Lasse dir den Unterschied mit `git diff` anzeigen.

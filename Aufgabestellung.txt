@@ -1,0 +1,59 @@
+Bash
+
+Schreibe ein Bash-Skript `backup.sh`, das:
+- ein Verzeichnis (`./data`) zippt,
+- das Archiv mit Zeitstempel versieht (z. B. `backup_2025-08-08.zip`) und
+- es in einen Ordner `./backups` verschiebt.
+
+Python
+
+Erstelle eine Python-Datei `json_sorter.py`, die:
+- eine Datei `data.json` lädt (enthält ein Array von Objekten),
+- nach einem bestimmten Feld (z. B. "name") sortiert und
+- das Ergebnis in `sorted.json` speichert.
+
+GitHub
+
+- Erstelle ein neues Repo.
+- Lege ein Branch-Konzept an (z. B. `main`, `feature/xyz`).
+- Simuliere einen Pull Request mit einem Feature.
+- Lasse dir den Unterschied mit `git diff` anzeigen.
+
+GitHub Actions
+
+Erstelle eine Workflow-Datei `.github/workflows/test.yml`, die:
+- bei jedem Push startet,
+- `npm install` und `npm test` ausführt,
+- nur auf dem Branch `main` aktiv ist.
+
+Jenkins
+
+- Erstelle einen simplen Jenkins-Job per Freestyle-Konfiguration.
+- Baue ein Shell-Skript ein, das `echo "Build läuft"` ausgibt.
+- Füge einen Trigger ein, der alle 5 Minuten läuft (cron).
+
+Docker
+
+- Erstelle ein Dockerfile für eine Node.js-App.
+- Baue das Image mit Tag `myapp:1.0`.
+- Starte es mit Port-Mapping auf `localhost:3000`.
+
+Bonus: Verwende ein Volume, um Logs zu persistieren.
+
+Kubernetes
+
+- Erstelle ein `deployment.yaml` und ein `service.yaml` für die obige App.
+- Ziehe das Image aus deiner Azure Container Registry (ACR).
+- Nutze deine `kubeconfig`, um das Deployment in den Cluster zu pushen.
+
+Terraform
+
+- Schreibe ein `main.tf`, das in der bestehenden Resource Group `Kurs-2` einen Key Vault mit deinem Kürzel im Namen anlegt (z. B. `kv-stefan-devops`).
+- Füge ein Secret mit dem Namen `apiToken` und einem Dummy-Wert hinzu.
+- Verwende `terraform.tfvars`, um dein Kürzel als Variable zu definieren.
+
+Azure CLI
+
+- Nutze die Azure CLI, um in der Resource Group `Kurs-2` einen Key Vault mit deinem Kürzel im Namen zu erstellen, z. B. `kv-deinname-devops`.
+- Lege im Key Vault ein Secret `myPassword` mit dem Wert "Geheim123" an.
+- Bonus: Zeige den gespeicherten Secret-Wert über CLI an (nicht im Portal).
