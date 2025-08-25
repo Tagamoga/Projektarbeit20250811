@@ -18,7 +18,8 @@ kubectl apply -f service.yaml
 
 
 
-# Status der Pods anzeigen : HIer ist er abgebrochen und ich konnte ihn nicht dazu überzeugen, die "app.js" zu finden.
+# Status der Pods anzeigen : HIer ist er abgebrochen und ich konnte ihn nicht dazu überzeugen, die "myapp.js" zu nehmen,
+anstatt der "app.js".
 kubectl get pods
 
 

@@ -11,5 +11,5 @@ RUN mkdir -p /app/logs
 
 EXPOSE 3000
 
-CMD ["node", "app.js"]
+CMD ["node", "myapp.js"]
 
