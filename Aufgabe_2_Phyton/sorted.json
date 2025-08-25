@@ -1,0 +1,82 @@
+[
+  {
+    "Name": "Alexander",
+    "Nachname": "Schmidt",
+    "Strasse": "Lindenallee",
+    "Hausnummer": "15a",
+    "PLZ": "10115",
+    "Ort": "Berlin"
+  },
+  {
+    "Name": "Emma",
+    "Nachname": "Müller",
+    "Strasse": "Hauptstraße",
+    "Hausnummer": "23",
+    "PLZ": "80331",
+    "Ort": "München"
+  },
+  {
+    "Name": "Felix",
+    "Nachname": "Koch",
+    "Strasse": "Bahnhofstraße",
+    "Hausnummer": "19",
+    "PLZ": "30159",
+    "Ort": "Hannover"
+  },
+  {
+    "Name": "Hannah",
+    "Nachname": "Fischer",
+    "Strasse": "Kirchplatz",
+    "Hausnummer": "3",
+    "PLZ": "20095",
+    "Ort": "Hamburg"
+  },
+  {
+    "Name": "Lena",
+    "Nachname": "Hoffmann",
+    "Strasse": "Schulstraße",
+    "Hausnummer": "28",
+    "PLZ": "40213",
+    "Ort": "Düsseldorf"
+  },
+  {
+    "Name": "Leon",
+    "Nachname": "Becker",
+    "Strasse": "Rosenweg",
+    "Hausnummer": "11",
+    "PLZ": "50667",
+    "Ort": "Köln"
+  },
+  {
+    "Name": "Lukas",
+    "Nachname": "Wagner",
+    "Strasse": "Buchenstraße",
+    "Hausnummer": "42",
+    "PLZ": "60313",
+    "Ort": "Frankfurt"
+  },
+  {
+    "Name": "Marie",
+    "Nachname": "Schäfer",
+    "Strasse": "Eichenweg",
+    "Hausnummer": "5",
+    "PLZ": "04109",
+    "Ort": "Leipzig"
+  },
+  {
+    "Name": "Paul",
+    "Nachname": "Meyer",
+    "Strasse": "Bergstraße",
+    "Hausnummer": "31",
+    "PLZ": "01067",
+    "Ort": "Dresden"
+  },
+  {
+    "Name": "Sophie",
+    "Nachname": "Weber",
+    "Strasse": "Gartenweg",
+    "Hausnummer": "7",
+    "PLZ": "70173",
+    "Ort": "Stuttgart"
+  }
+]
