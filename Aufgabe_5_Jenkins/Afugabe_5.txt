@@ -1,0 +1,7 @@
+Jenkins
+
+- Erstelle einen simplen Jenkins-Job per Freestyle-Konfiguration.
+- Baue ein Shell-Skript ein, das `echo "Build läuft"` ausgibt.
+- Füge einen Trigger ein, der alle 5 Minuten läuft (cron).
+
+Gespeichert unter: Projektarbeit20250811_MD in Ske-E-Red Jenkins
