@@ -1,0 +1,4 @@
+Erstelle eine Workflow-Datei `.github/workflows/test.yml`, die:
+- bei jedem Push startet,
+- `npm install` und `npm test` ausführt,
+- nur auf dem Branch `main` aktiv ist.
