@@ -1,0 +1,42 @@
+Docker
+
+- Erstelle ein Dockerfile für eine Node.js-App.
+- Baue das Image mit Tag `myapp:1.0`.
+- Starte es mit Port-Mapping auf `localhost:3000`.
+
+Bonus: Verwende ein Volume, um Logs zu persistieren.
+
+# Befehlsaufrufe:
+
+#Docker Hub Registry befüllen
+docker login
+docker tag myapp:1.0 tagamoga/myapp:1.0
+docker push tagamoga/myapp:1.0
+
+# Erstellen Sie die Kubernetes-Ressourcen
+kubectl apply -f pvc.yaml
+kubectl apply -f deployment.yaml
+kubectl apply -f service.yaml
+
+
+
+# Status der Pods anzeigen : HIer ist er abgebrochen und ich konnte ihn nicht dazu überzeugen, die "app.js" zu finden.
+kubectl get pods
+
+
+
+
+# Status des Services anzeigen - hat funktioneirt
+kubectl get services
+
+
+# ab hier pflanzte sich der Fehler fort.
+
+# Logs anzeigen - hat NICHT funktioniert
+kubectl logs -l app=myapp
+
+# URL für den Service
+minikube service myapp-service --url
+
+# Pod-Details anzeigen
+kubectl describe pod <pod-name>
