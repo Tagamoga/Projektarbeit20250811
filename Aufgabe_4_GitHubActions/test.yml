@@ -20,6 +20,10 @@ jobs:
 
     - name: Install dependencies
       run: npm install
+      working-directory: ./Aufgabe_4_GitHubActions
+
 
     - name: Run tests
       run: npm test
+      working-directory: ./Aufgabe_4_GitHubActions
+
