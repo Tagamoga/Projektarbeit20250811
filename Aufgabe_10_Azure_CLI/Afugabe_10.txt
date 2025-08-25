@@ -1,0 +1,28 @@
+Azure CLI
+
+- Nutze die Azure CLI, um in der Resource Group `Kurs-2` einen Key Vault mit deinem Kürzel im Namen zu erstellen, z. B. `kv-deinname-devops`.
+- Lege im Key Vault ein Secret `myPassword` mit dem Wert "Geheim123" an.
+- Bonus: Zeige den gespeicherten Secret-Wert über CLI an (nicht im Portal).
+
+Befehlskette:
+
+az login    # läuft
+
+az keyvault create --name "kv-md-devops" --resource-group "Kurs-2" --location "westeurope"
+
+Fehler:
+(AuthorizationFailed) The client 'Maria.Donner@skyered-education.de' with object id '6fbf5401-2fff-4fa3-b3e1-c6fe7768d1ca'
+does not have authorization to perform action 'Microsoft.KeyVault/vaults/write' over scope
+'/subscriptions/bd568ec2-e05e-468f-8315-2ef473e1f3d9/resourceGroups/Kurs-2/providers/Microsoft.KeyVault/vaults/kv-md-devops'
+or the scope is invalid. If access was recently granted, please refresh your credentials.
+Code: AuthorizationFailed
+Message: The client 'Maria.Donner@skyered-education.de' with object id '6fbf5401-2fff-4fa3-b3e1-c6fe7768d1ca' does not
+have authorization to perform action 'Microsoft.KeyVault/vaults/write' over scope
+'/subscriptions/bd568ec2-e05e-468f-8315-2ef473e1f3d9/resourceGroups/Kurs-2/providers/Microsoft.KeyVault/vaults/kv-md-devops'
+or the scope is invalid. If access was recently granted, please refresh your credentials.
+
+# Nicht getestet:
+
+az keyvault secret set --vault-name "kv-md-devops" --name "myPassword" --value "Geheim123"
+az keyvault secret show --vault-name "kv-KÜRZEL-devops" --name "myPassword" --query "value" --output tsv
+
