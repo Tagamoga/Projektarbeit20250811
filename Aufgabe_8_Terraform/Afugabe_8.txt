@@ -1,0 +1,5 @@
+Terraform
+
+- Schreibe ein `main.tf`, das in der bestehenden Resource Group `Kurs-2` einen Key Vault mit deinem Kürzel im Namen anlegt (z. B. `kv-stefan-devops`).
+- Füge ein Secret mit dem Namen `apiToken` und einem Dummy-Wert hinzu.
+- Verwende `terraform.tfvars`, um dein Kürzel als Variable zu definieren.
