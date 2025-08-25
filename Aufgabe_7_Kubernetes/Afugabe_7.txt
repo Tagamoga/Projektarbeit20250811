@@ -1,10 +1,8 @@
-Docker
+Kubernetes
 
-- Erstelle ein Dockerfile für eine Node.js-App.
-- Baue das Image mit Tag `myapp:1.0`.
-- Starte es mit Port-Mapping auf `localhost:3000`.
-
-Bonus: Verwende ein Volume, um Logs zu persistieren.
+- Erstelle ein `deployment.yaml` und ein `service.yaml` für die obige App.
+- Ziehe das Image aus deiner Azure Container Registry (ACR).
+- Nutze deine `kubeconfig`, um das Deployment in den Cluster zu pushen.
 
 # Befehlsaufrufe:
 
